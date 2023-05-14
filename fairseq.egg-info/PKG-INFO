@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: fairseq
+Version: 1.0.0a0+4d2b246
+Summary: Facebook AI Research Sequence-to-Sequence Toolkit
+Home-page: https://github.com/pytorch/fairseq
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# LSSD
+The repository save the code of LSSD (AFTER submitted to IJCAI2022).
+
+## Command line args
+`--pure-batch` If used, each batch contain samples from only one language pair.
+
+`--LS-epoch`  # If used, valid losses will be recorded for each language pair.
+
+`--LSSD-MNMT`  # If used, apply LSSD on the MNMT (--task translation_multi_single_epoch)
