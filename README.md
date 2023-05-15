@@ -1,5 +1,5 @@
 # Pareto-Mutual-Distillation
-Code for the paper "*Towards Higher Pareto Frontier in Multilingual Machine Translation*".
+Code for the paper "**Towards Higher Pareto Frontier in Multilingual Machine Translation**".
 
 This paper proposes a novel training strategy named *Parero Mutual Distillation*, which aims to push the Pareto frontier of multilingual neural machine translation.
 
