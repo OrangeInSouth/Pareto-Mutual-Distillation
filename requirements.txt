@@ -15,7 +15,6 @@ cycler==0.11.0
 Cython==0.29.24
 datasets==2.1.0
 dill==0.3.4
--e git+https://git.pcl.ac.cn/ychuang/Mutual-Distillation.git@3b97956c34a2ba6ff49d71fc310a578aa03f6dab#egg=fairseq
 filelock==3.6.0
 fonttools==4.33.3
 frozenlist==1.3.0
