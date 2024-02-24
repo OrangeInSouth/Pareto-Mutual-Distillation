@@ -1,4 +1,4 @@
-# Pareto-Mutual-Distillation
+# Pareto Mutual Distillation
 Code for the paper "**Towards Higher Pareto Frontier in Multilingual Machine Translation**".
 
 This paper proposes a novel training strategy named *Parero Mutual Distillation*, which aims to push the Pareto frontier of multilingual neural machine translation.
@@ -7,20 +7,20 @@ This paper proposes a novel training strategy named *Parero Mutual Distillation*
 
 
 ## Install
-### 1. Downloading this repository.
+### 1. Download this repository.
 ```git clone``` or downloading the zip directly.
 
-### 2. Installing the dependency.
+### 2. Install the dependency.
 ```pip install -r requirements.txt```
 
 ```pip install --editable ./ ```
 
-### 3. Downloading the data file (data-bin)
+### 3. Download the data file (data-bin)
 Downloading the [data file](https://drive.google.com/drive/folders/1z396pP8ZfCeiJm-CMIu9EdQqFpfckAZP) and unzip these files into a user-specific data-bin path.
 We conducted experiments on three datasets (TED-8-Diverse, TED-8-Related, and WMT-6).
 The TED-8-Diverse and TED-8-Related are provided by [1]. The WMT6 dataset is provided by [2].
 
-### 4. Training and Inference.
+### 4. Train and Inference.
 Scripts for training and inference are placed in the 'PCL_scripts'. 
 
 Before running these scripts, **modifying the project_path, python_path, path_2_data** as:
